@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+
+    tools:context=".CricketRegForm">
+
+    <TextView
+        android:id="@+id/NOTE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/cp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1 player's id "
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_design"/>
+
+    <EditText
+        android:id="@+id/cp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2 player's id"
+        android:inputType="textEmailAddress"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/edittext_design"/>
+
+    <EditText
+        android:id="@+id/cp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3 player's id"
+        android:inputType="textEmailAddress"
+        android:layout_marginVertical="0dp"
+        android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="4 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="5 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="0dp"
+            android:background="@drawable/edittext_design"/>
+        <EditText
+            android:id="@+id/cp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="6 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="7 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="0dp"
+            android:background="@drawable/edittext_design"/>
+        <EditText
+            android:id="@+id/cp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="8 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="9 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="0dp"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10 player's id"
+            android:layout_marginVertical="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="11 player's id"
+            android:layout_marginVertical="0dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_design"/>
+        <EditText
+            android:id="@+id/cp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="12 player's id"
+            android:layout_marginVertical="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="13 player's id"
+            android:layout_marginVertical="0dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_design"/>
+        <EditText
+            android:id="@+id/cp14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="14 player's id"
+            android:layout_marginVertical="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_design"/>
+
+        <EditText
+            android:id="@+id/cp15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="15 player's id"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="0dp"
+            android:background="@drawable/edittext_design"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_submitCktTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/loginbutton"
+            android:paddingHorizontal="20dp"
+            android:text="Submit Team "
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn_downloadCktTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/loginbutton"
+                android:paddingHorizontal="15dp"
+                android:text="Download pdf "
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    tools:context=".TeamRegActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/gp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="1 player's id "
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ic_copyright_black_24dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="3 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="0dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="4 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="5 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="0dp"
+                android:background="@drawable/edittext_design"/>
+            <EditText
+                android:id="@+id/gp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="6 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="7 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="0dp"
+                android:background="@drawable/edittext_design"/>
+            <EditText
+                android:id="@+id/gp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="8 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="9 player's id"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:layout_marginVertical="0dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="10 player's id"
+                android:layout_marginVertical="5dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edittext_design"/>
+
+            <EditText
+                android:id="@+id/gp11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="11 player's id"
+                android:layout_marginVertical="0dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edittext_design"/>
+            <EditText
+                android:id="@+id/gp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="12 player's id"
+                android:layout_marginVertical="5dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edittext_design"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+        <Button
+            android:id="@+id/btn_submitTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/loginbutton"
+
+            android:text="Submit Team "
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MyAccountActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="User Information"
+        android:fontFamily="serif-monospace"
+        android:textSize="28dp"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextUserPen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textSize="19dp"
+            android:hint="Enter your PEN NO:"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:hint="Enter your full name:"
+            />
+
+        <EditText
+            android:id="@+id/editTextUserMobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter contact no:"
+            android:layout_marginTop="15dp"
+            android:inputType="phone"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioUserGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="15dp"
+                android:paddingHorizontal="30dp"
+                />
+
+            <RadioButton
+                android:id="@+id/userMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:textSize="15dp"
+                android:text="Male"
+                />
+            <RadioButton
+                android:id="@+id/userFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:textSize="15dp"
+                android:text="Female"
+                />
+
+
+
+        </RadioGroup>
+        <Spinner
+            android:id="@+id/spinnerUserDept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/userdept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginHorizontal="10dp"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/editTextUserClass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="i.g COM-16"
+
+            android:layout_marginTop="5dp"
+
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="15dp"
+    android:gravity="center"
+    >
+        <Button
+            android:id="@+id/buttonSaveUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Save Profile "/>
+        <Button
+            android:id="@+id/buttonShowUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="1dp"
+            android:text="View Profile "/>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+    </LinearLayout>
+
+
